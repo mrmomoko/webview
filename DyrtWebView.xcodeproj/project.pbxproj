@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C4F34DC1F63099600011047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4F34DB1F63099600011047 /* AppDelegate.swift */; };
+		4C4F34DE1F63099600011047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4F34DD1F63099600011047 /* ViewController.swift */; };
+		4C4F34E11F63099600011047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4F34DF1F63099600011047 /* Main.storyboard */; };
+		4C4F34E31F63099600011047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4F34E21F63099600011047 /* Assets.xcassets */; };
+		4C4F34E61F63099600011047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4F34E41F63099600011047 /* LaunchScreen.storyboard */; };
+		4C4F34F11F63099600011047 /* DyrtWebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4F34F01F63099600011047 /* DyrtWebViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C4F34ED1F63099600011047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C4F34D01F63099600011047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C4F34D71F63099600011047;
+			remoteInfo = DyrtWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C4F34D81F63099600011047 /* DyrtWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DyrtWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4F34DB1F63099600011047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C4F34DD1F63099600011047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C4F34E01F63099600011047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C4F34E21F63099600011047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C4F34E51F63099600011047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C4F34E71F63099600011047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4F34EC1F63099600011047 /* DyrtWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DyrtWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4F34F01F63099600011047 /* DyrtWebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DyrtWebViewUITests.swift; sourceTree = "<group>"; };
+		4C4F34F21F63099600011047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C4F34D51F63099600011047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4F34E91F63099600011047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C4F34CF1F63099600011047 = {
+			isa = PBXGroup;
+			children = (
+				4C4F34DA1F63099600011047 /* DyrtWebView */,
+				4C4F34EF1F63099600011047 /* DyrtWebViewUITests */,
+				4C4F34D91F63099600011047 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C4F34D91F63099600011047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C4F34D81F63099600011047 /* DyrtWebView.app */,
+				4C4F34EC1F63099600011047 /* DyrtWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C4F34DA1F63099600011047 /* DyrtWebView */ = {
+			isa = PBXGroup;
+			children = (
+				4C4F34DB1F63099600011047 /* AppDelegate.swift */,
+				4C4F34DD1F63099600011047 /* ViewController.swift */,
+				4C4F34DF1F63099600011047 /* Main.storyboard */,
+				4C4F34E21F63099600011047 /* Assets.xcassets */,
+				4C4F34E41F63099600011047 /* LaunchScreen.storyboard */,
+				4C4F34E71F63099600011047 /* Info.plist */,
+			);
+			path = DyrtWebView;
+			sourceTree = "<group>";
+		};
+		4C4F34EF1F63099600011047 /* DyrtWebViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C4F34F01F63099600011047 /* DyrtWebViewUITests.swift */,
+				4C4F34F21F63099600011047 /* Info.plist */,
+			);
+			path = DyrtWebViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C4F34D71F63099600011047 /* DyrtWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4F34F51F63099600011047 /* Build configuration list for PBXNativeTarget "DyrtWebView" */;
+			buildPhases = (
+				4C4F34D41F63099600011047 /* Sources */,
+				4C4F34D51F63099600011047 /* Frameworks */,
+				4C4F34D61F63099600011047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DyrtWebView;
+			productName = DyrtWebView;
+			productReference = 4C4F34D81F63099600011047 /* DyrtWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C4F34EB1F63099600011047 /* DyrtWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4F34F81F63099600011047 /* Build configuration list for PBXNativeTarget "DyrtWebViewUITests" */;
+			buildPhases = (
+				4C4F34E81F63099600011047 /* Sources */,
+				4C4F34E91F63099600011047 /* Frameworks */,
+				4C4F34EA1F63099600011047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C4F34EE1F63099600011047 /* PBXTargetDependency */,
+			);
+			name = DyrtWebViewUITests;
+			productName = DyrtWebViewUITests;
+			productReference = 4C4F34EC1F63099600011047 /* DyrtWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C4F34D01F63099600011047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Momoko Saunders";
+				TargetAttributes = {
+					4C4F34D71F63099600011047 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 8SXGH2J6R8;
+						ProvisioningStyle = Automatic;
+					};
+					4C4F34EB1F63099600011047 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 8SXGH2J6R8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C4F34D71F63099600011047;
+					};
+				};
+			};
+			buildConfigurationList = 4C4F34D31F63099600011047 /* Build configuration list for PBXProject "DyrtWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C4F34CF1F63099600011047;
+			productRefGroup = 4C4F34D91F63099600011047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C4F34D71F63099600011047 /* DyrtWebView */,
+				4C4F34EB1F63099600011047 /* DyrtWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C4F34D61F63099600011047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4F34E61F63099600011047 /* LaunchScreen.storyboard in Resources */,
+				4C4F34E31F63099600011047 /* Assets.xcassets in Resources */,
+				4C4F34E11F63099600011047 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4F34EA1F63099600011047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C4F34D41F63099600011047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4F34DE1F63099600011047 /* ViewController.swift in Sources */,
+				4C4F34DC1F63099600011047 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4F34E81F63099600011047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4F34F11F63099600011047 /* DyrtWebViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C4F34EE1F63099600011047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C4F34D71F63099600011047 /* DyrtWebView */;
+			targetProxy = 4C4F34ED1F63099600011047 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C4F34DF1F63099600011047 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4F34E01F63099600011047 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C4F34E41F63099600011047 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4F34E51F63099600011047 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C4F34F31F63099600011047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C4F34F41F63099600011047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C4F34F61F63099600011047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8SXGH2J6R8;
+				INFOPLIST_FILE = DyrtWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bikeseeds.DyrtWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4C4F34F71F63099600011047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8SXGH2J6R8;
+				INFOPLIST_FILE = DyrtWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bikeseeds.DyrtWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4C4F34F91F63099600011047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8SXGH2J6R8;
+				INFOPLIST_FILE = DyrtWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bikeseeds.DyrtWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DyrtWebView;
+			};
+			name = Debug;
+		};
+		4C4F34FA1F63099600011047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8SXGH2J6R8;
+				INFOPLIST_FILE = DyrtWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bikeseeds.DyrtWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DyrtWebView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C4F34D31F63099600011047 /* Build configuration list for PBXProject "DyrtWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4F34F31F63099600011047 /* Debug */,
+				4C4F34F41F63099600011047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4F34F51F63099600011047 /* Build configuration list for PBXNativeTarget "DyrtWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4F34F61F63099600011047 /* Debug */,
+				4C4F34F71F63099600011047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C4F34F81F63099600011047 /* Build configuration list for PBXNativeTarget "DyrtWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4F34F91F63099600011047 /* Debug */,
+				4C4F34FA1F63099600011047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C4F34D01F63099600011047 /* Project object */;
+}
